@@ -1,0 +1,99 @@
+.header {
+    text-align: center;
+    padding: 20px;
+    transform: scale(1.05);
+    
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgb(206, 228, 168);
+    border-radius: 10px;
+}
+
+.crew {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: large;
+    color: antiquewhite;
+    background-color: aqua;
+
+}
+
+.table {
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.images {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid lightblue;
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+
+
+}
+
+.border {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.images img:hover {
+    transform: scale(1.03);
+    border-color: rgb(11, 129, 138);
+    transition: border-color 0.3s;
+    box-shadow: 0px 2px 4px rgb(161, 139, 14);
+    cursor: pointer;
+
+
+
+}
+
+.header img:hover {
+    transform: scale(1.1);
+}
+
+.info {
+    background-color: lightslategray;
+}
+
+.info1 {
+    background-color: lemonchiffon;
+}
+
+.info2 {
+    background-color: lightgreen;
+}
+
+.info3 {
+    background-color: lightsteelblue;
+}
+
+.video {
+    box-shadow: 0px 6px 12px gold;
+}
+
+marquee {
+    direction: alternate;
+}
+
+span{
+    color: rgb(216, 223, 223);
+    background-color: aqua;
+    display: inline;
+    font-size: xx-large;
+}
