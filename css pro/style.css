@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+.header{
+    position: sticky;
+    top: 0%;
+    z-index: 3;
+    background-color: #100f0f;
+    padding: 10px 0;
+}
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+  
+}
+.child_nav{
+    font-size: medium;
+    color: #f4efef;
+    padding: 8px 8px 8px 8px;
+    margin: 0px 10px 0px 10px;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.child_nav:hover{
+    color: #131313;
+    background-color: #f4efef;
+}
+.bg_img{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/028/297/750/non_2x/cozy-cafe-bistro-with-blurred-background-and-wooden-montage-generative-ai-photo.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    opacity: 1.1;
+}
+.cafe_name{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    color:rgb(245, 238, 238);
+    font-size: 100px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+.cafe_name:hover{
+    color: #100f0f;
+}
+.contenet,h1,p {
+    text-align: center;
+    align-items: center;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.menu_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.tab_container {
+    width: 50%;
+    border: 2px solid #100f0f;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+.intro{
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+.intro img{
+    opacity: 1;
+    width: 100%;
+    height: 90%;
+
+}
+
+/* Hide radio buttons */
+.button {
+    display: none;
+}
+
+/* Style labels */
+.tab_container label {
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 10px 15px;
+    background-color: #100f0f;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tab_container label:hover {
+    background-color: #333;
+}
+
+/* Hide content by default */
+.menu_content,
+.specials_content {
+    display: none;
+    margin-top: 20px;
+}
+
+/* Show Menu content */
+#bt1:checked ~ label~ label ~ .content .menu_content {
+    display: block;
+}
+
+/* Show Specials content */
+#bt2:checked ~ label~ .content .specials_content {
+    display: block;
+}
+footer {
+    background-color: #100f0f;
+    color: #f4efef;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.social_link{
+    color: #3221ea;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.contact h1{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.contact {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact form input,
+.contact form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact form button {
+    padding: 10px;
+    background-color: #100f0f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

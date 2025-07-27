@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Clases</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav_bar">
+            <a href="#home" class="child_nav">Home</a>
+            <a href="#about" class="child_nav">About</a>
+            <a href="#menu" class="child_nav">Menu</a>
+            <a href="#contact" class="child_nav">Contact</a>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="bg_img">
+            <p class="cafe_name">The Cafe</p>
+        </div>
+    </section>
+    <br>
+    <section class="intro" id="about">
+        <img src="https://www.w3schools.com/w3images/coffeehouse.jpg" alt="Cafe Image" class="intro_img">
+        <h1>Welcome to The Cafe</h1>
+        <p>Enjoy our freshly brewed coffee and delicious pastries.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eius cumque eum. Beatae pariatur minus natus iusto assumenda soluta numquam ipsum, ipsam excepturi eos, culpa dolores tempore alias sapiente reiciendis.
+        </p>
+        </section>
+  <section class="menu_bar" id="menu">
+    <div class="tab_container">
+        <input type="radio" name="food" id="bt1" class="button" checked>
+        <label for="bt1">Menu</label>
+
+        <input type="radio" name="food" id="bt2" class="button">
+        <label for="bt2">Specials</label>
+
+        <div class="content">
+            <div class="menu_content">
+                <h2>Our Menu</h2>
+                <p>Fresh baked bread, muffins, waffles and more!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Sequi eius cumque eum. Beatae pariatur minus natus iusto
+                      assumenda soluta numquam ipsum, ipsam excepturi eos,
+                     culpa dolores tempore alias sapiente reiciendis.
+                </p>
+            </div>
+            <div class="specials_content">
+                <h2>Today's Specials</h2>
+                <p>Try our seasonal pumpkin latte and chocolate croissant.
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Officia ipsum voluptas cum beatae laudantium animi quod illum delectus quam quo. 
+                      Perspiciatis, quis! Dolore libero minus,
+                     veritatis cumque beatae officia consectetur?</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <h1 id="contact">Contact</h1><br>
+    <div >
+        <form action="" method="get" class="forms">
+            <lable for="name">Name :</lable>
+            <input type="text" id="name" name="user" placeholder="User name" required >
+            <lable for="mail">mail :</lable>
+            <input type="text" id="mail" name="id" placeholder="mail_id" required >
+            <lable for="Comments">Comments:</lable>
+            <input type="text"  id="Comments" name="text" placeholder="" required    >
+            <span class="submit1"><button>Submit</button></span>
+        </form>
+    </div>
+</section>        
+<footer>
+    <p>&copy; 2025 The Cafe. All rights reserved.</p>
+    <p>Follow us on social media!  <a href="#" class="social_link">w3 schools</a></p>
+       
+</footer>
+
+
+
+</body>
+
+</html>
