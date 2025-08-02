@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.header {
+    position: fixed;     
+    bottom: 0;            
+    width: 100%;          
+    z-index: 1;
+    background-color: #100f0f;
+    padding: 10px 0;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.child_nav{
+    font-size: medium;
+    color: #f4efef;
+    padding: 8px 8px 8px 8px;
+    margin: 0px 10px 0px 10px;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.child_nav:hover{
+    color: #131313;
+    background-color: #f4efef;
+}
+html body{
+    height: 100%;
+    width: 100%;
+    background-color: #f4efef;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightpink;
+}
+.wedding>div{
+    background-image: url("https://easy-peasy.ai/cdn-cgi/image/quality=70,format=auto,width=500/https://media.easy-peasy.ai/4add5bbf-1a3d-433d-8106-af749ab93c6e/77ec5fab-a250-4b82-a418-11dbf7dd0818.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wedding_img{
+    display:flex;
+}
+.wedding_img_text>div{
+    display: flex;
+    color:rgb(241, 235, 235);
+    font-size: 3rem;
+    line-height: 1.5; 
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #131313;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wedding_img2{
+    background-image: url("https://img.freepik.com/premium-photo/wedding-couple-indoors-is-hugging-each-other-neural-network-ai-generated_76080-23217.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;    
+
+}
+.wedding_img_text2>p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #131313;
+    font-size: 1rem; 
+    padding: 10px;
+    margin-top: 10px;
+    text-align: justify;
+}
+.wedding_img3{
+    background-image: url("https://www.laubergedelmar.com/wp-content/uploads/2025/03/reception-dd.jpg");
+    background-size: cover;
+    background-position: center;    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wedding_img_text3>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f26542;
+    font-size: 2rem; 
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.adressing{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f4efef;
+}
+.adressing>p:nth-child(1){
+    font-size: 1.5rem;
+    color: #131313;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.adressing>p:nth-child(2){
+    font-size: 1.2rem;
+    color: #131313;
+    margin-top: 10px;
+}
+.when, .where {
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.when p, .where p {
+    font-size: 1.2rem;
+    color: #131313;
+    margin: 10px 0;
+}
+.when,.where>p:nth-child(2) {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.welcome.address {
+    background-color: #f44fdb;
+    color: #f4efef;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+.welcome.address p {
+    margin: 5px 0;
+    text-align: center;
+    font-size: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.welcome.address button {
+    background-color: #f4efef;
+    color: #100f0f;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.welcome.address button:hover {
+    background-color: #f26542;
+    color: #ffffff;
+}
