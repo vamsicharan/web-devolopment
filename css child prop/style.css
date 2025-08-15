@@ -13,19 +13,17 @@
  .container {
    display: flex;
    justify-content: space-between;
-
-   gap: 20px;
    flex-wrap: wrap;
    border: 1px solid;
-   height: 500px;
+   height: 550px;
  }
 
  .item {
    background: white;
    border-radius: 10px;
    overflow: hidden;
-   width: 250px;
-   height: 290px;
+   width: 200px;
+   height: 250px;
    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
    transition: transform 0.3s ease, box-shadow 0.3s ease;
    cursor: pointer;
@@ -34,17 +32,17 @@
     align-self: flex-start;
     margin: 15px;
   }
-  .item2{
-    align-self: flex-end;
-     margin: 15px;
+  .item1{
+    align-self: flex-start;
+    margin: 20px;
   }
    .item3{
     align-self: flex-start;
-     margin: 15px;
+     margin: 20px;
   }
   .item4{
     align-self: flex-end;
-    margin: 15px;
+    margin: 20px;
   }
 
  /* Parent hover affects child */
@@ -53,7 +51,7 @@
    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
  }
 
- .item img{
+.item img{
    width: 100%;
    max-width: fit-content;
    height: 100%;
@@ -70,8 +68,9 @@
  }
 
  .caption {
-   padding: 19px;
+   padding: 5px;
    font-weight: bold;
-   margin-top: 20px;
+   margin-top: 8px;
 
  }
+
