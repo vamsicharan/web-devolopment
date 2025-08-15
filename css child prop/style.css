@@ -32,17 +32,19 @@
  }
   .item1{
     align-self: flex-start;
-    margin: 10px;
+    margin: 15px;
   }
   .item2{
     align-self: flex-end;
+     margin: 15px;
   }
    .item3{
     align-self: flex-start;
+     margin: 15px;
   }
   .item4{
     align-self: flex-end;
-    margin: 10px;
+    margin: 15px;
   }
 
  /* Parent hover affects child */
@@ -71,4 +73,5 @@
    padding: 19px;
    font-weight: bold;
    margin-top: 20px;
+
  }
